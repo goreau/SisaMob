@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">SisaMob</string>
+    <string name="app_descr">Registro de atividades do Programa de Controle de Arboviroses</string>
+    <string name="action_settings">Settings</string>
+    <!-- Limpeza -->
+    <string name="limpTudo">Todos os Registros</string>
+    <string name="tvLimpa">Registros a excluir:</string>
+    <string name="btLimpaImovel">Imoveis</string>
+    <string name="btLimpaFolha">Visitas</string>
+    <string name="btLimpaOvitrampa">Ovitrampas</string>
+    <string name="limpBotao">Limpar</string>
+
+
+    <string-array name="tabelas">
+        <item>Registrar Atividade</item>
+        <item>Consultar Registros</item>
+        <item>Atualizar Coordenadas</item>
+        <item>Recebimento de Arquivos</item>
+        <item>Envio de Arquivos</item>
+        <item>Relatórios</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="btImporta">Receber Cadastros</string>
+    <string name="btTrabalho">Registro Atividades</string>
+    <string name="btExporta">Exportar Produção</string>
+    <string name="tvTipoDown">Tipo:</string>
+    <string name="chkTerritorio">Territorio</string>
+    <string name="chkSistema">Sistema</string>
+    <string name="chkCadImovel">Cad. Imóveis</string>
+    <string name="chkCadNav">Áreas Transm.</string>
+    <string name="btProcImporta">Importar</string>
+    <string name="tvLocal">Local</string>
+    <string name="tvConecta">Conectado</string>
+    <string name="chkRegional">Regional</string>
+    <string name="chkColegiado">Colegiado</string>
+    <string name="chkMunicipio">Municipio</string>
+    <string name="etNivel">Nivel:</string>
+    <string name="tvAgente">Agente</string>
+    <string name="tvMunicipio">Municipio:</string>
+    <string name="tvAtividade">Atividade:</string>
+    <string name="tvData">Data:</string>
+    <string name="btProssegue">Prosseguir</string>
+    <string name="tvImovel">Imovel:</string>
+    <string name="rgSituacao">Situação Imóvel:</string>
+    <string name="chkTrab">Trabalhado</string>
+    <string name="chkFech">Fechado</string>
+    <string name="chkDes">Desocupado</string>
+    <string name="chkTemp">Temporada</string>
+    <string name="chkParc">Parcial</string>
+    <string name="chkRec">Recusa</string>
+    <string name="btRecipiente">Recipiente</string>
+    <string name="tvTipoTrat">Tipo</string>
+    <string name="tvProdTrat">Prod.</string>
+    <string name="tvQuantTrat">Quant.</string>
+    <string name="tvFocal">Focal</string>
+    <string name="tvPeri">Perifocal</string>
+    <string name="tvNeb">Nebuliz.</string>
+    <string name="tvExecucao">Execução:</string>
+    <string name="chkSucen">Estado</string>
+    <string name="chkPsf">PACS/PSF</string>
+    <string name="tvGrupo">Grupo:</string>
+    <string name="tvTipoRec">Tipo:</string>
+    <string name="tvExistente">Existente:</string>
+    <string name="tvAgua">Água:</string>
+    <string name="tvLarva">Larva:</string>
+    <string name="tvAmostra">Amostra:</string>
+    <string name="btSalva">Salvar</string>
+    <string name="btSincroniza">Sincronizar</string>
+    <string name="tvResumo">Registros a sincronizar:</string>
+    <string name="tvRegistros">Registros:</string>
+    <string name="etImovel">Nº ordem imovel</string>
+    <string name="tvArea">Area:</string>
+    <string name="tvCensitario">Setor Censitário:</string>
+    <string name="tvQuarteirao">Quarteirão:</string>
+
+
+    <string name="btNovo">Salvar/Novo</string>
+    <string name="btVolta">Voltar</string>
+    <string name="spinnerSel">--Selecione--</string>
+    <string name="rgCondCasa">Condição da Casa:</string>
+    <string name="chkCB">Boa</string>
+    <string name="chkCM">Média</string>
+    <string name="chkCR">Ruim</string>
+    <string name="rgCondQuint">Condição do Quintal:</string>
+    <string name="chkQB">Bom</string>
+    <string name="chkQM">Médio</string>
+    <string name="chkQR">Ruim</string>
+    <string name="rgSombra">Sombreamento:</string>
+    <string name="chkSP">Até 25%</string>
+    <string name="chkSM">25 a 50%</string>
+    <string name="chkST">Acima 50%</string>
+    <string name="rgPavimento">Pavimentação Quintal:</string>
+    <string name="chkPN">Ausente</string>
+    <string name="chkPP">Parcial</string>
+    <string name="chkPT">Total</string>
+    <string name="rgAnimal">Animais:</string>
+    <string name="chkGalinha">Galinha</string>
+    <string name="chkCão">Cão</string>
+    <string name="chkOutros">Outros</string>
+    <string name="btCondicao">Recipientes</string>
+    <string name="tvOvitrampa">Ovitrampa</string>
+    <string name="tvInstala">Data Instalação</string>
+    <string name="tvRetira">Data Retirada</string>
+    <string name="rgLocal">Local</string>
+    <string name="chkPeri">Peri</string>
+    <string name="chkIntra">Intra</string>
+    <string name="chkMecan">Mecânico</string>
+    <string name="chkAlter">Alternativo</string>
+    <string name="tvObs">Observação</string>
+    <string name="tvlat">Latitude :</string>
+    <string name="tvLong">Longitude:</string>
+    <string name="btObter">Obter Coordenadas</string>
+    <string name="tvCoordenadas">Coord :</string>
+    <string name="tvEndereco">Endereço :</string>
+    <string name="etCasa">Nº Casa</string>
+    <string name="btExcluiIm">Excluir Imóvel</string>
+    <string name="btExcluiRec">Excluir Recipiente</string>
+    <string name="btConsultaRec">Consultar Recipientes</string>
+    <string name="mnuSobre">Sobre</string>
+    <string name="tvTipoTrab">Tipo Trabalho:</string>
+    <string name="chkRotina">Rotina</string>
+    <string name="chkPendencia">Pendência</string>
+    <string name="chkDemanda">Demanda</string>
+    <string name="ctSobre">Sistema para automação da coleta de dados de controle de vetores da dengue.\n - Área Técnica de Vigilância Vetorial - </string>
+    <string name="btLimpaCoordenada">Coordenadas</string>
+
+    <string name="tvAreaNeb">Área Transmissão:</string>
+    <string name="tvInseticida">Inseticida:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

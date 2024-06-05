@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="?attr/actionBarSize"
+        android:paddingLeft="5sp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/rgCondCasa" />
+
+        <RadioGroup
+            android:id="@+id/rgCasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/chkCasaBoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkCB" />
+
+            <RadioButton
+                android:id="@+id/chkCasaMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkCM" />
+
+            <RadioButton
+                android:id="@+id/chkCasaRuim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="@dimen/font_size"
+                android:text="@string/chkCR" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/rgCondQuint" />
+
+        <RadioGroup
+            android:id="@+id/rgQuintal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/chkQuintalBom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkQB" />
+
+            <RadioButton
+                android:id="@+id/chkQuintalMedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkQM" />
+
+            <RadioButton
+                android:id="@+id/chkQuintalRuim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkQR" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/rgSombra" />
+
+        <RadioGroup
+            android:id="@+id/rgSombra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/chkSombraPouca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkSP" />
+
+            <RadioButton
+                android:id="@+id/chkSombraMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkSM" />
+
+            <RadioButton
+                android:id="@+id/chkSombraTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkST" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/rgPavimento" />
+
+        <RadioGroup
+            android:id="@+id/rgPavimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/chkPavimentoSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkPN" />
+
+            <RadioButton
+                android:id="@+id/chkchkPavimentoParc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkPP" />
+
+            <RadioButton
+                android:id="@+id/chkchkPavimentoTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkPT" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/rgAnimal" />
+
+        <CheckBox
+            android:id="@+id/chkGalinha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/chkGalinha" />
+
+        <CheckBox
+            android:id="@+id/chkCao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/chkCão" />
+
+        <CheckBox
+            android:id="@+id/chkOutros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
+            android:text="@string/chkOutros" />
+
+        <Button
+            android:id="@+id/btSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/novo"
+            android:paddingRight="80sp"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/font_small"
+            android:text="@string/btSalva" />
+
+        <Button
+            android:id="@+id/btRecipiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/prossegues"
+            android:paddingRight="80sp"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/font_small"
+            android:text="@string/btRecipiente" />
+
+        <Button
+            android:id="@+id/btVolta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/voltar"
+            android:paddingRight="80sp"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/font_small"
+            android:text="@string/btVolta"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</ScrollView>

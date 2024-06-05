@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/tvConecta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vermelho"
+            android:text="@string/tvConecta"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/font_size"
+            android:text="@string/tvTipoDown" />
+
+        <RadioGroup
+            android:id="@+id/rgTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <RadioButton
+                android:id="@+id/chkTerritorio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkTerritorio" />
+
+            <RadioButton
+                android:id="@+id/chkCadImovel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkCadImovel" />
+
+            <RadioButton
+                android:id="@+id/chkCadNav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkCadNav" />
+
+            <RadioButton
+                android:id="@+id/chkSistema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkSistema" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/etImpNivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/font_size"
+            android:text="@string/etNivel" />
+
+        <RadioGroup
+            android:id="@+id/rgNivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <RadioButton
+                android:id="@+id/chkRegional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkRegional" />
+
+            <RadioButton
+                android:id="@+id/chkDRS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="DRS" />
+
+            <RadioButton
+                android:id="@+id/chkColegiado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkColegiado" />
+
+            <RadioButton
+                android:id="@+id/chkMunicipio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="@dimen/font_size"
+                android:text="@string/chkMunicipio" />
+        </RadioGroup>
+
+        <Switch
+            android:id="@+id/swLimpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="56dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="Limpar existentes:"
+            android:checked="true"
+            android:textOff="Não"
+            android:textOn="Sim"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/font_size"
+            android:text="@string/tvLocal" />
+
+        <AutoCompleteTextView
+            android:id="@+id/etLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/font_size"
+            android:text="" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/btImporta"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginTop="20sp"
+            android:drawableLeft="@drawable/proc_import"
+            android:drawablePadding="-60dp"
+            android:textSize="@dimen/font_size"
+            android:paddingLeft="100sp"
+            android:text="@string/btProcImporta" />
+    </LinearLayout>
+
+</ScrollView>

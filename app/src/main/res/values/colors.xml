@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6891de</color>
+    <color name="colorPrimaryDark">#0f2c87</color>
+    <color name="colorTexto2">#04273b</color>
+    <color name="colorTexto1">#ffffff</color>
+    <color name="colorTexto3">#602222</color>
+    <color name="colorAccent">#7faee4</color>
+    <color name="consulta">#3d7e8e</color>
+</resources>

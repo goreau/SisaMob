@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_atividade"
+            android:icon="@drawable/ic_atividade"
+            android:title="Registrar Atividade" />
+        <item
+            android:id="@+id/nav_consulta"
+            android:icon="@drawable/ic_consulta"
+            android:title="Consultar Registros" />
+        <item
+            android:id="@+id/nav_coords"
+            android:icon="@drawable/ic_coordenadas"
+            android:title="Atualizar Coordenadas" />
+        <item
+            android:id="@+id/nav_relat"
+            android:icon="@drawable/ic_relatorio"
+            android:title="Relatório de Visitas" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manutenção" />
+    </group>
+
+    <item android:title="Integração">
+        <menu>
+            <item
+                android:id="@+id/nav_importa"
+                android:icon="@drawable/ic_importa"
+                android:title="Importar Registros" />
+            <item
+                android:id="@+id/nav_exporta"
+                android:icon="@drawable/ic_sync"
+                android:title="Exportar Produção" />
+        </menu>
+    </item>
+
+</menu>

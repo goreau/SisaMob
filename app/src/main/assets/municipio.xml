@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<municipios>
+<item>ADAMANTINA</item>
+<item>ADOLFO</item>
+<item>AEROPORTO DE CONGONHAS</item>
+<item>AGUAI</item>
+<item>AGUAS DA PRATA</item>
+<item>AGUAS DE LINDOIA</item>
+<item>AGUAS DE SANTA BARBARA</item>
+<item>AGUAS DE SAO PEDRO</item>
+<item>AGUDOS</item>
+<item>ALAMBARI</item>
+<item>ALFREDO MARCONDES</item>
+<item>ALTAIR</item>
+<item>ALTINOPOLIS</item>
+<item>ALTO ALEGRE</item>
+<item>ALUMINIO</item>
+<item>ALVARES FLORENCE</item>
+<item>ALVARES MACHADO</item>
+<item>ALVARO DE CARVALHO</item>
+<item>ALVINLANDIA</item>
+<item>AMERICANA</item>
+<item>AMERICO BRASILIENSE</item>
+<item>AMERICO DE CAMPOS</item>
+<item>AMPARO</item>
+<item>ANALANDIA</item>
+<item>ANDRADINA</item>
+<item>ANGATUBA</item>
+<item>ANHEMBI</item>
+<item>ANHUMAS</item>
+<item>APARECIDA</item>
+<item>APARECIDA DÂ´OESTE</item>
+<item>APIAI</item>
+<item>ARACARIGUAMA</item>
+<item>ARACATUBA</item>
+<item>ARACOIABA DA SERRA</item>
+<item>ARAMINA</item>
+<item>ARANDU</item>
+<item>ARAPEI</item>
+<item>ARARAQUARA</item>
+<item>ARARAS</item>
+<item>ARCO-IRIS</item>
+<item>AREALVA</item>
+<item>AREIAS</item>
+<item>AREIOPOLIS</item>
+<item>ARIRANHA</item>
+<item>ARTUR NOGUEIRA</item>
+<item>ARUJA</item>
+<item>ASPASIA</item>
+<item>ASSIS</item>
+<item>ATIBAIA</item>
+<item>AURIFLAMA</item>
+<item>AVAI</item>
+<item>AVANHANDAVA</item>
+<item>AVARE</item>
+<item>BADY BASSITT</item>
+<item>BALBINOS</item>
+<item>BALSAMO</item>
+<item>BANANAL</item>
+<item>BARAO DE ANTONINA</item>
+<item>BARBOSA</item>
+<item>BARIRI</item>
+<item>BARRA BONITA</item>
+<item>BARRA DO CHAPEU</item>
+<item>BARRA DO TURVO</item>
+<item>BARRETOS</item>
+<item>BARRINHA</item>
+<item>BARUERI</item>
+<item>BASTOS</item>
+<item>BATATAIS</item>
+<item>BAURU</item>
+<item>BEBEDOURO</item>
+<item>BENTO DE ABREU</item>
+<item>BERNARDINO DE CAMPOS</item>
+<item>BERTIOGA</item>
+<item>BILAC</item>
+<item>BIRIGUI</item>
+<item>BIRITIBA-MIRIM</item>
+<item>BOA ESPERANCA DO SUL</item>
+<item>BOCAINA</item>
+<item>BOFETE</item>
+<item>BOITUVA</item>
+<item>BOM JESUS DOS PERDOES</item>
+<item>BOM SUCESSO DE ITARARE</item>
+<item>BORA</item>
+<item>BORACEIA</item>
+<item>BORBOREMA</item>
+<item>BOREBI</item>
+<item>BOTUCATU</item>
+<item>BRAGANCA PAULISTA</item>
+<item>BRAUNA</item>
+<item>BREJO ALEGRE</item>
+<item>BRODOWSKI</item>
+<item>BROTAS</item>
+<item>BURI</item>
+<item>BURITAMA</item>
+<item>BURITIZAL</item>
+<item>CABRALIA PAULISTA</item>
+<item>CABREUVA</item>
+<item>CACAPAVA</item>
+<item>CACHOEIRA PAULISTA</item>
+<item>CACONDE</item>
+<item>CAFELANDIA</item>
+<item>CAIABU</item>
+<item>CAIEIRAS</item>
+<item>CAIUA</item>
+<item>CAJAMAR</item>
+<item>CAJATI</item>
+<item>CAJOBI</item>
+<item>CAJURU</item>
+<item>CAMPINA DO MONTE ALEGRE</item>
+<item>CAMPINAS</item>
+<item>CAMPO LIMPO PAULISTA</item>
+<item>CAMPOS DO JORDAO</item>
+<item>CAMPOS NOVOS PAULISTA</item>
+<item>CANANEIA</item>
+<item>CANAS</item>
+<item>CANDIDO MOTA</item>
+<item>CANDIDO RODRIGUES</item>
+<item>CANITAR</item>
+<item>CAPAO_BONITO</item>
+<item>CAPELA DO ALTO</item>
+<item>CAPIVARI</item>
+<item>CARAGUATATUBA</item>
+<item>CARAPICUIBA</item>
+<item>CARDOSO</item>
+<item>CASA BRANCA</item>
+<item>CASSIA DOS COQUEIROS</item>
+<item>CASTILHO</item>
+<item>CATANDUVA</item>
+<item>CATIGUA</item>
+<item>CEDRAL</item>
+<item>CERQUEIRA CESAR</item>
+<item>CERQUILHO</item>
+<item>CESARIO LANGE</item>
+<item>CHARQUEADA</item>
+<item>CHAVANTES</item>
+<item>CLEMENTINA</item>
+<item>COLINA</item>
+<item>COLOMBIA</item>
+<item>CONCHAL</item>
+<item>CONCHAS</item>
+<item>CORDEIROPOLIS</item>
+<item>COROADOS</item>
+<item>CORONEL MACEDO</item>
+<item>CORUMBATAI</item>
+<item>COSMOPOLIS</item>
+<item>COSMORAMA</item>
+<item>COTIA</item>
+<item>CRAVINHOS</item>
+<item>CRISTAIS PAULISTA</item>
+<item>CRUZALIA</item>
+<item>CRUZEIRO</item>
+<item>CUBATAO</item>
+<item>CUNHA</item>
+<item>DESCALVADO</item>
+<item>DIADEMA</item>
+<item>DIRCE REIS</item>
+<item>DIVINOLANDIA</item>
+<item>DOBRADA</item>
+<item>DOIS CORREGOS</item>
+<item>DOLCINOPOLIS</item>
+<item>DOURADO</item>
+<item>DRACENA</item>
+<item>DUARTINA</item>
+<item>DUMONT</item>
+<item>ECHAPORA</item>
+<item>ELDORADO</item>
+<item>ELIAS FAUSTO</item>
+<item>ELISIARIO</item>
+<item>EMBAUBA</item>
+<item>EMBU</item>
+<item>EMBU-GUACU</item>
+<item>EMILIANOPOLIS</item>
+<item>ENGENHEIRO COELHO</item>
+<item>ESPIRITO SANTO DO PINHAL</item>
+<item>ESPIRITO SANTO DO TURVO</item>
+<item>ESTIVA GERBI</item>
+<item>ESTRELA D`OESTE</item>
+<item>ESTRELA DO NORTE</item>
+<item>EUCLIDES DA CUNHA PAULISTA</item>
+<item>FAIXA_PORTUARIA</item>
+<item>FAKETOWN</item>
+<item>FALSOPOLIS</item>
+<item>FARTURA</item>
+<item>FERNANDO PRESTES</item>
+<item>FERNANDOPOLIS</item>
+<item>FERNAO</item>
+<item>FERRAZ DE VASCONCELOS</item>
+<item>FLORA RICA</item>
+<item>FLOREAL</item>
+<item>FLORIDA PAULISTA</item>
+<item>FLORINIA</item>
+<item>FRANCA</item>
+<item>FRANCISCO MORATO</item>
+<item>FRANCO DA ROCHA</item>
+<item>GABRIEL MONTEIRO</item>
+<item>GALIA</item>
+<item>GARCA</item>
+<item>GASTAO VIDIGAL</item>
+<item>GAVIAO PEIXOTO</item>
+<item>GENERAL SALGADO</item>
+<item>GETULINA</item>
+<item>GLICERIO</item>
+<item>GUAICARA</item>
+<item>GUAIMBE</item>
+<item>GUAIRA</item>
+<item>GUAPIACU</item>
+<item>GUAPIARA</item>
+<item>GUARA</item>
+<item>GUARACAI</item>
+<item>GUARACI</item>
+<item>GUARANI D`OESTE</item>
+<item>GUARANTA</item>
+<item>GUARARAPES</item>
+<item>GUARAREMA</item>
+<item>GUARATINGUETA</item>
+<item>GUAREI</item>
+<item>GUARIBA</item>
+<item>GUARUJA</item>
+<item>GUARULHOS</item>
+<item>GUARULHOS AEROPORTO</item>
+<item>GUARULHOS BASP</item>
+<item>GUATAPARA</item>
+<item>GUZOLANDIA</item>
+<item>HERCULANDIA</item>
+<item>HOLAMBRA</item>
+<item>HORTOLANDIA</item>
+<item>IACANGA</item>
+<item>IACRI</item>
+<item>IARAS</item>
+<item>IBATE</item>
+<item>IBIRA</item>
+<item>IBIRAREMA</item>
+<item>IBITINGA</item>
+<item>IBIUNA</item>
+<item>ICEM</item>
+<item>IEPE</item>
+<item>IGARACU DO TIETE</item>
+<item>IGARAPAVA</item>
+<item>IGARATA</item>
+<item>IGUAPE</item>
+<item>ILHA COMPRIDA</item>
+<item>ILHA SOLTEIRA</item>
+<item>ILHABELA</item>
+<item>INDAIATUBA</item>
+<item>INDIANA</item>
+<item>INDIAPORA</item>
+<item>INUBIA PAULISTA</item>
+<item>IPAUCU</item>
+<item>IPERO</item>
+<item>IPEUNA</item>
+<item>IPIGUA</item>
+<item>IPORANGA</item>
+<item>IPUA</item>
+<item>IRACEMAPOLIS</item>
+<item>IRAPUA</item>
+<item>IRAPURU</item>
+<item>ITABERA</item>
+<item>ITAI</item>
+<item>ITAJOBI</item>
+<item>ITAJU</item>
+<item>ITANHAEM</item>
+<item>ITAOCA</item>
+<item>ITAPECERICA DA SERRA</item>
+<item>ITAPETININGA</item>
+<item>ITAPEVA</item>
+<item>ITAPEVI</item>
+<item>ITAPIRA</item>
+<item>ITAPIRAPUA PAULISTA</item>
+<item>ITAPOLIS</item>
+<item>ITAPORANGA</item>
+<item>ITAPUI</item>
+<item>ITAPURA</item>
+<item>ITAQUAQUECETUBA</item>
+<item>ITARARE</item>
+<item>ITARIRI</item>
+<item>ITATIBA</item>
+<item>ITATINGA</item>
+<item>ITIRAPINA</item>
+<item>ITIRAPUA</item>
+<item>ITOBI</item>
+<item>ITU</item>
+<item>ITUPEVA</item>
+<item>ITUVERAVA</item>
+<item>JABORANDI</item>
+<item>JABOTICABAL</item>
+<item>JACAREI</item>
+<item>JACI</item>
+<item>JACUPIRANGA</item>
+<item>JAGUARIUNA</item>
+<item>JALES</item>
+<item>JAMBEIRO</item>
+<item>JANDIRA</item>
+<item>JARDINOPOLIS</item>
+<item>JARINU</item>
+<item>JAU</item>
+<item>JERIQUARA</item>
+<item>JOANOPOLIS</item>
+<item>JOAO RAMALHO</item>
+<item>JOSE BONIFACIO</item>
+<item>JULIO MESQUITA</item>
+<item>JUMIRIM</item>
+<item>JUNDIAI</item>
+<item>JUNQUEIROPOLIS</item>
+<item>JUQUIA</item>
+<item>JUQUITIBA</item>
+<item>LAGOINHA</item>
+<item>LARANJAL PAULISTA</item>
+<item>LAVINIA</item>
+<item>LAVRINHAS</item>
+<item>LEME</item>
+<item>LENCOIS PAULISTA</item>
+<item>LIMEIRA</item>
+<item>LINDOIA</item>
+<item>LINS</item>
+<item>LORENA</item>
+<item>LOURDES</item>
+<item>LOUVEIRA</item>
+<item>LUCELIA</item>
+<item>LUCIANOPOLIS</item>
+<item>LUIS ANTONIO</item>
+<item>LUIZIANIA</item>
+<item>LUPERCIO</item>
+<item>LUTECIA</item>
+<item>MACATUBA</item>
+<item>MACAUBAL</item>
+<item>MACEDONIA</item>
+<item>MAGDA</item>
+<item>MAIRINQUE</item>
+<item>MAIRIPORA</item>
+<item>MANDURI</item>
+<item>MARABA PAULISTA</item>
+<item>MARACAI</item>
+<item>MARAPOAMA</item>
+<item>MARIAPOLIS</item>
+<item>MARILIA</item>
+<item>MARINOPOLIS</item>
+<item>MARTINOPOLIS</item>
+<item>MATAO</item>
+<item>MAUA</item>
+<item>MENDONCA</item>
+<item>MERIDIANO</item>
+<item>MESOPOLIS</item>
+<item>MIGUELOPOLIS</item>
+<item>MINEIROS DO TIETE</item>
+<item>MIRA ESTRELA</item>
+<item>MIRACATU</item>
+<item>MIRANDOPOLIS</item>
+<item>MIRANTE DO PARANAPANEMA</item>
+<item>MIRASSOL</item>
+<item>MIRASSOLANDIA</item>
+<item>MOCOCA</item>
+<item>MOGI GUACU</item>
+<item>MOGI MIRIM</item>
+<item>MOJI DAS CRUZES</item>
+<item>MOMBUCA</item>
+<item>MONCOES</item>
+<item>MONGAGUA</item>
+<item>MONTE ALEGRE DO SUL</item>
+<item>MONTE ALTO</item>
+<item>MONTE APRAZIVEL</item>
+<item>MONTE AZUL PAULISTA</item>
+<item>MONTE CASTELO</item>
+<item>MONTE MOR</item>
+<item>MONTEIRO LOBATO</item>
+<item>MORRO AGUDO</item>
+<item>MORUNGABA</item>
+<item>MOTUCA</item>
+<item>MURUTINGA DO SUL</item>
+<item>NANTES</item>
+<item>NARANDIBA</item>
+<item>NATIVIDADE DA SERRA</item>
+<item>NAZARE_PAULISTA</item>
+<item>NEVES PAULISTA</item>
+<item>NHANDEARA</item>
+<item>NIPOA</item>
+<item>NOVA ALIANCA</item>
+<item>NOVA CAMPINA</item>
+<item>NOVA CANAA PAULISTA</item>
+<item>NOVA CASTILHO</item>
+<item>NOVA EUROPA</item>
+<item>NOVA GRANADA</item>
+<item>NOVA GUATAPORANGA</item>
+<item>NOVA INDEPENDENCIA</item>
+<item>NOVA LUZITANIA</item>
+<item>NOVA ODESSA</item>
+<item>NOVAIS</item>
+<item>NOVO HORIZONTE</item>
+<item>NUPORANGA</item>
+<item>OCAUCU</item>
+<item>OLEO</item>
+<item>OLIMPIA</item>
+<item>ONDA VERDE</item>
+<item>ORIENTE</item>
+<item>ORINDIUVA</item>
+<item>ORLANDIA</item>
+<item>OSASCO</item>
+<item>OSCAR BRESSANE</item>
+<item>OSVALDO CRUZ</item>
+<item>OURINHOS</item>
+<item>OURO VERDE</item>
+<item>OUROESTE</item>
+<item>PACAEMBU</item>
+<item>PALESTINA</item>
+<item>PALMARES PAULISTA</item>
+<item>PALMEIRA D`OESTE</item>
+<item>PALMITAL</item>
+<item>PANORAMA</item>
+<item>PARAGUACU PAULISTA</item>
+<item>PARAIBUNA</item>
+<item>PARAISO</item>
+<item>PARANAPANEMA</item>
+<item>PARANAPUA</item>
+<item>PARAPUA</item>
+<item>PARDINHO</item>
+<item>PARIQUERA-ACU</item>
+<item>PARISI</item>
+<item>PATROCINIO PAULISTA</item>
+<item>PAULICEIA</item>
+<item>PAULINIA</item>
+<item>PAULISTANA</item>
+<item>PAULO DE FARIA</item>
+<item>PEDERNEIRAS</item>
+<item>PEDRA BELA</item>
+<item>PEDRANOPOLIS</item>
+<item>PEDREGULHO</item>
+<item>PEDREIRA</item>
+<item>PEDRINHAS PAULISTA</item>
+<item>PEDRO DE TOLEDO</item>
+<item>PENAPOLIS</item>
+<item>PEREIRA BARRETO</item>
+<item>PEREIRAS</item>
+<item>PERUIBE</item>
+<item>PIACATU</item>
+<item>PIEDADE</item>
+<item>PILAR DO SUL</item>
+<item>PINDAMONHANGABA</item>
+<item>PINDORAMA</item>
+<item>PINHALZINHO</item>
+<item>PIQUEROBI</item>
+<item>PIQUETE</item>
+<item>PIRACAIA</item>
+<item>PIRACICABA</item>
+<item>PIRAJU</item>
+<item>PIRAJUI</item>
+<item>PIRANGI</item>
+<item>PIRAPORA DO BOM JESUS</item>
+<item>PIRAPOZINHO</item>
+<item>PIRASSUNUNGA</item>
+<item>PIRATININGA</item>
+<item>PITANGUEIRAS</item>
+<item>PLANALTO</item>
+<item>PLATINA</item>
+<item>POA</item>
+<item>POLONI</item>
+<item>POMPEIA</item>
+<item>PONGAI</item>
+<item>PONTAL</item>
+<item>PONTALINDA</item>
+<item>PONTES GESTAL</item>
+<item>POPULINA</item>
+<item>PORANGABA</item>
+<item>PORTO FELIZ</item>
+<item>PORTO FERREIRA</item>
+<item>POTIM</item>
+<item>POTIRENDABA</item>
+<item>PRACINHA</item>
+<item>PRADOPOLIS</item>
+<item>PRAIA GRANDE</item>
+<item>PRATANIA</item>
+<item>PRESIDENTE ALVES</item>
+<item>PRESIDENTE BERNARDES</item>
+<item>PRESIDENTE EPITACIO</item>
+<item>PRESIDENTE PRUDENTE</item>
+<item>PRESIDENTE VENCESLAU</item>
+<item>PROMISSAO</item>
+<item>QUADRA</item>
+<item>QUATA</item>
+<item>QUEIROZ</item>
+<item>QUELUZ</item>
+<item>QUINTANA</item>
+<item>RAFARD</item>
+<item>RANCHARIA</item>
+<item>REDENCAO DA SERRA</item>
+<item>REGENTE FEIJO</item>
+<item>REGINOPOLIS</item>
+<item>REGISTRO</item>
+<item>RESTINGA</item>
+<item>RIBEIRA</item>
+<item>RIBEIRAO BONITO</item>
+<item>RIBEIRAO BRANCO</item>
+<item>RIBEIRAO CORRENTE</item>
+<item>RIBEIRAO DO SUL</item>
+<item>RIBEIRAO DOS INDIOS</item>
+<item>RIBEIRAO GRANDE</item>
+<item>RIBEIRAO PIRES</item>
+<item>RIBEIRAO PRETO</item>
+<item>RIFAINA</item>
+<item>RINCAO</item>
+<item>RINOPOLIS</item>
+<item>RIO CLARO</item>
+<item>RIO DAS PEDRAS</item>
+<item>RIO GRANDE DA SERRA</item>
+<item>RIOLANDIA</item>
+<item>RIVERSUL</item>
+<item>ROSANA</item>
+<item>ROSEIRA</item>
+<item>RUBIACEA</item>
+<item>RUBINEIA</item>
+<item>SABINO</item>
+<item>SAGRES</item>
+<item>SALES</item>
+<item>SALES OLIVEIRA</item>
+<item>SALESOPOLIS</item>
+<item>SALMOURAO</item>
+<item>SALTINHO</item>
+<item>SALTO</item>
+<item>SALTO DE PIRAPORA</item>
+<item>SALTO GRANDE</item>
+<item>SANDOVALINA</item>
+<item>SANTA ADELIA</item>
+<item>SANTA ALBERTINA</item>
+<item>SANTA BARBARA D`OESTE</item>
+<item>SANTA BRANCA</item>
+<item>SANTA CLARA D`OESTE</item>
+<item>SANTA CRUZ DA CONCEICAO</item>
+<item>SANTA CRUZ DA ESPERANCA</item>
+<item>SANTA CRUZ DAS PALMEIRAS</item>
+<item>SANTA CRUZ DO RIO PARDO</item>
+<item>SANTA ERNESTINA</item>
+<item>SANTA FE DO SUL</item>
+<item>SANTA GERTRUDES</item>
+<item>SANTA ISABEL</item>
+<item>SANTA LUCIA</item>
+<item>SANTA MARIA DA SERRA</item>
+<item>SANTA MERCEDES</item>
+<item>SANTA RITA D`OESTE</item>
+<item>SANTA RITA DO PASSA QUATRO</item>
+<item>SANTA ROSA DO VITERBO</item>
+<item>SANTA SALETE</item>
+<item>SANTANA DA PONTE PENSA</item>
+<item>SANTANA DO PARNAIBA</item>
+<item>SANTO ANASTACIO</item>
+<item>SANTO ANDRE</item>
+<item>SANTO ANTONIO DA ALEGRIA</item>
+<item>SANTO ANTONIO DE POSSE</item>
+<item>SANTO ANTONIO DO ARACANGUA</item>
+<item>SANTO ANTONIO DO JARDIM</item>
+<item>SANTO ANTONIO DO PINHAL</item>
+<item>SANTO EXPEDITO</item>
+<item>SANTOPOLIS DO AGUAPEI</item>
+<item>SANTOS</item>
+<item>SAO BENTO DO SAPUCAI</item>
+<item>SAO BERNARDO DO CAMPO</item>
+<item>SAO CAETANO DO SUL</item>
+<item>SAO CARLOS</item>
+<item>SAO FRANCISCO</item>
+<item>SAO JOAO DA BOA VISTA</item>
+<item>SAO JOAO DAS DUAS PONTES</item>
+<item>SAO JOAO DO IRACEMA</item>
+<item>SAO JOAO DO PAU D`ALHO</item>
+<item>SAO JOAQUIM DA BARRA</item>
+<item>SAO JOSE DA BELA VISTA</item>
+<item>SAO JOSE DO BARREIRO</item>
+<item>SAO JOSE DO RIO PARDO</item>
+<item>SAO JOSE DO RIO PRETO</item>
+<item>SAO JOSE DOS CAMPOS</item>
+<item>SAO LOURENCO DA SERRA</item>
+<item>SAO LUIS DO PARAITINGA</item>
+<item>SAO MANUEL</item>
+<item>SAO MIGUEL ARCANJO</item>
+<item>SAO PAULO</item>
+<item>SAO PEDRO</item>
+<item>SAO PEDRO DO TURVO</item>
+<item>SAO ROQUE</item>
+<item>SAO SEBASTIAO</item>
+<item>SAO SEBASTIAO DA GRAMA</item>
+<item>SAO SIMAO</item>
+<item>SAO VICENTE</item>
+<item>SARAPUI</item>
+<item>SARUTAIA</item>
+<item>SEBASTIANOPOLIS DO SUL</item>
+<item>SERRA AZUL</item>
+<item>SERRA NEGRA</item>
+<item>SERRANA</item>
+<item>SERTAOZINHO</item>
+<item>SETE BARRAS</item>
+<item>SEVERINIA</item>
+<item>SILVEIRAS</item>
+<item>SOCORRO</item>
+<item>SOROCABA</item>
+<item>SUD MENNUCCI</item>
+<item>SUMARE</item>
+<item>SUZANAPOLIS</item>
+<item>SUZANO</item>
+<item>TABAPUA</item>
+<item>TABATINGA</item>
+<item>TABOAO DA SERRA</item>
+<item>TACIBA</item>
+<item>TAGUAI</item>
+<item>TAIACU</item>
+<item>TAIUVA</item>
+<item>TAMBAU</item>
+<item>TANABI</item>
+<item>TAPIRAI</item>
+<item>TAPIRATIBA</item>
+<item>TAQUARAL</item>
+<item>TAQUARITINGA</item>
+<item>TAQUARITUBA</item>
+<item>TAQUARIVAI</item>
+<item>TARABAI</item>
+<item>TARUMA</item>
+<item>TATUI</item>
+<item>TAUBATE</item>
+<item>TEJUPA</item>
+<item>TEODORO SAMPAIO</item>
+<item>TERRA ROXA</item>
+<item>TIETE</item>
+<item>TIMBURI</item>
+<item>TORRE DE PEDRA</item>
+<item>TORRINHA</item>
+<item>TRABIJU</item>
+<item>TREMEMBE</item>
+<item>TRES FRONTEIRAS</item>
+<item>TRIANGULO</item>
+<item>TUIUTI</item>
+<item>TUPA</item>
+<item>TUPI PAULISTA</item>
+<item>TURIUBA</item>
+<item>TURMALINA</item>
+<item>UBARANA</item>
+<item>UBATUBA</item>
+<item>UBIRAJARA</item>
+<item>UCHOA</item>
+<item>UNIAO PAULISTA</item>
+<item>URANIA</item>
+<item>URU</item>
+<item>URUPES</item>
+<item>VALENTIM GENTIL</item>
+<item>VALINHOS</item>
+<item>VALPARAISO</item>
+<item>VARGEM</item>
+<item>VARGEM GRANDE DO SUL</item>
+<item>VARGEM GRANDE PAULISTA</item>
+<item>VARZEA PAULISTA</item>
+<item>VERA CRUZ</item>
+<item>VEROPOLIS</item>
+<item>VINHEDO</item>
+<item>VIRADOURO</item>
+<item>VISTA ALEGRE DO ALTO</item>
+<item>VITORIA BRASIL</item>
+<item>VOTORANTIM</item>
+<item>VOTUPORANGA</item>
+<item>ZACARIAS</item>
+    <item>PORTOS E AEROPORTOS</item>
+    <item>NATAL</item>
+
+</municipios>
