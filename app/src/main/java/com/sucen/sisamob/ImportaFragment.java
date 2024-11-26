@@ -354,16 +354,17 @@ public class ImportaFragment extends Fragment{
         }
         switch (rgTipo.getCheckedRadioButtonId()) {
             case R.id.chkTerritorio:
-                webUri = "http://vigent.saude.sp.gov.br/sisapi/api/cadastro/base.php?nivel=" + nivel + "&id=" + id;
+                webUri = "https://vigent.saude.sp.gov.br/sisapi/api/cadastro/base.php?nivel=" + nivel + "&id=" + id;
                 break;
             case R.id.chkCadImovel:
-                webUri = "http://vigent.saude.sp.gov.br/sisapi/api/cadastro/imovel.php?nivel=" + nivel + "&id=" + id;
+                webUri = "https://vigent.saude.sp.gov.br/sisapi/api/cadastro/imovel.php?nivel=" + nivel + "&id=" + id;
                 break;
             case R.id.chkCadNav:
-                webUri = "http://vigent.saude.sp.gov.br/sisapi/api/cadastro/area_nav.php?nivel=" + nivel + "&id=" + id;
+                //webUri = "http://200.144.1.23/vigent/sisapi/api/cadastro/area_nav.php?nivel=" + nivel + "&id=" + id;
+                webUri = "https://vigent.saude.sp.gov.br/sisapi/api/cadastro/area_nav.php?nivel=" + nivel + "&id=" + id;
                 break;
             default:
-                webUri = "http://vigent.saude.sp.gov.br/sisapi/api/sistema/base.php";
+                webUri = "https://vigent.saude.sp.gov.br/sisapi/api/sistema/base.php";
                 break;
         }
 

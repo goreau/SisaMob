@@ -135,12 +135,12 @@ public class ImovelCadFragment extends Fragment {
 
         btRec = (Button) v.findViewById(R.id.btRecipiente);
         btRec.setOnClickListener( new OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 salvaImovel(v, 1);
             }
         });
+
 
         btNovo = (Button) v.findViewById(R.id.btNovo);
         btNovo.setOnClickListener(new OnClickListener() {
@@ -184,6 +184,9 @@ public class ImovelCadFragment extends Fragment {
                 btRec.setEnabled(!chkRec.isChecked());
             }
         });
+
+        npFocal.requestFocus();
+        //etCadastro.requestFocus();
 
         if(idEdt>0){
             Edita();
@@ -277,49 +280,54 @@ public class ImovelCadFragment extends Fragment {
         VcImovel imovel = new VcImovel(idEdt);
         int exec;
         int pos = strCadastro.indexOf(etCadastro.getText().toString());
-        imovel.setId_imovel(Integer.parseInt(valImovel.get(pos)));
-        imovel.setId_prod_focal(Integer.parseInt(valFocal.get(spProdFocal.getSelectedItemPosition())));
-        imovel.setId_prod_peri(Integer.parseInt(valPeri.get(spProdPeri.getSelectedItemPosition())));
-        imovel.setId_prod_neb(Integer.parseInt(valNeb.get(spProdNeb.getSelectedItemPosition())));
-        imovel.setQt_focal(npFocal.getValue());
-        imovel.setQt_peri(npPeri.getValue());
-        imovel.setQt_neb(npNeb.getValue());
-        exec = chkMec.isChecked() ? 1 : 0;
-        imovel.setMecanico(exec);
-        exec = chkAlt.isChecked() ? 1 : 0;
-        imovel.setAlternativo(exec);
-        exec = chkFoc.isChecked() ? 1 : 0;
-        imovel.setFocal(exec);
-        exec = chkPeri.isChecked() ? 1 : 0;
-        imovel.setPeri(exec);
-        exec = chkNeb.isChecked() ? 1 : 0;
-        imovel.setNeb(exec);
-        imovel.setStatus(status);
-
-        imovel.setAgente(Storage.recupera("agente"));
-        imovel.setDt_cadastro(Storage.recupera("data"));
-        imovel.setId_execucao(Integer.parseInt(Storage.recupera("execucao")));
-
-        switch (rgSituacao.getCheckedRadioButtonId()) {
-            case R.id.chkTrabalhado:
-                exec=1;
-                break;
-            case R.id.chkFechado:
-                exec=2;
-                break;
-            default:
-                exec=3;
-                break;
-        }
-        imovel.setId_situacao(exec);
-        String msg = idEdt>0 ? "Alterado com sucesso." : "Inserido com sucesso.";
-        if (imovel.manipula()){
+        if(pos<0){
             MyToast toast = new MyToast(PrincipalActivity.getSisamobContext(), Toast.LENGTH_SHORT);
-            toast.show(msg);
-            if (tipo == 1) {
-                chamaRecipiente(imovel.get_id(),0);
-            } else {
-                limpa();
+            toast.show("Obrigatório informar o imóvel. Digite o cadastro ou endereço para abrir a lista.");
+        } else {
+            imovel.setId_imovel(Integer.parseInt(valImovel.get(pos)));
+            imovel.setId_prod_focal(Integer.parseInt(valFocal.get(spProdFocal.getSelectedItemPosition())));
+            imovel.setId_prod_peri(Integer.parseInt(valPeri.get(spProdPeri.getSelectedItemPosition())));
+            imovel.setId_prod_neb(Integer.parseInt(valNeb.get(spProdNeb.getSelectedItemPosition())));
+            imovel.setQt_focal(npFocal.getValue());
+            imovel.setQt_peri(npPeri.getValue());
+            imovel.setQt_neb(npNeb.getValue());
+            exec = chkMec.isChecked() ? 1 : 0;
+            imovel.setMecanico(exec);
+            exec = chkAlt.isChecked() ? 1 : 0;
+            imovel.setAlternativo(exec);
+            exec = chkFoc.isChecked() ? 1 : 0;
+            imovel.setFocal(exec);
+            exec = chkPeri.isChecked() ? 1 : 0;
+            imovel.setPeri(exec);
+            exec = chkNeb.isChecked() ? 1 : 0;
+            imovel.setNeb(exec);
+            imovel.setStatus(status);
+
+            imovel.setAgente(Storage.recupera("agente"));
+            imovel.setDt_cadastro(Storage.recupera("data"));
+            imovel.setId_execucao(Integer.parseInt(Storage.recupera("execucao")));
+
+            switch (rgSituacao.getCheckedRadioButtonId()) {
+                case R.id.chkTrabalhado:
+                    exec = 1;
+                    break;
+                case R.id.chkFechado:
+                    exec = 2;
+                    break;
+                default:
+                    exec = 3;
+                    break;
+            }
+            imovel.setId_situacao(exec);
+            String msg = idEdt > 0 ? "Alterado com sucesso." : "Inserido com sucesso.";
+            if (imovel.manipula()) {
+                MyToast toast = new MyToast(PrincipalActivity.getSisamobContext(), Toast.LENGTH_SHORT);
+                toast.show(msg);
+                if (tipo == 1) {
+                    chamaRecipiente(imovel.get_id(), 0);
+                } else {
+                    limpa();
+                }
             }
         }
     }

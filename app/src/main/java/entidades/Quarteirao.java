@@ -106,14 +106,21 @@ public class Quarteirao {
         List<String> quart = new ArrayList<String>();
         id_Quart = new ArrayList<String>();
         GerenciarBanco db = new GerenciarBanco(this.context);
-        String numQuart = ((ativ==8 || ativ==13) ? "(trim(numero_quarteirao)|| ' - ' || trim(sub_numero))" : "trim(numero_quarteirao)");
-        String sql = "SELECT id_quarteirao, " + numQuart + " as codigo from quarteirao where id_censitario=? order by codigo";
+        String sql =  "";
+       // String numQuart = ((ativ==8 || ativ==13) ? "(trim(numero_quarteirao)|| ' - ' || trim(sub_numero))" : "trim(numero_quarteirao)");
+        if(ativ==8 || ativ==13){
+            sql = "SELECT trim(numero_quarteirao) as numero, trim(sub_numero) as sub, id_quarteirao from quarteirao where id_censitario=? order by numero_quarteirao";
+        } else {
+            sql = "SELECT distinct trim(numero_quarteirao) as numero, 0 as sub, min(id_quarteirao) as id from quarteirao where id_censitario=? group by numero_quarteirao order by numero_quarteirao";
+        }
+       // String sql = "SELECT id_quarteirao, " + numQuart + " as codigo from quarteirao where id_censitario=? order by codigo";
 
         Cursor cursor = db.getReadableDatabase().rawQuery(sql, new String[]{id});
         if(cursor.moveToFirst()){
             do {
-                quart.add(cursor.getString(1));
-                id_Quart.add(cursor.getString(0));
+                String codigo = cursor.getString(1).equals("0") ? cursor.getString(0) : cursor.getString(0) + " (" + cursor.getString(1)+")";
+                quart.add(codigo);
+                id_Quart.add(cursor.getString(2));
             } while (cursor.moveToNext());
         }
         cursor.close();

@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class GerenciarBanco extends SQLiteOpenHelper {
     HashMap<String,ContentValues[]> registros = new HashMap<String,ContentValues[]>();
     private static final String NOME_BANCO = "sisamob.db";
-    private static final int VERSAO_SCHEMA = 15;
+    private static final int VERSAO_SCHEMA = 16;
     private static final String[] sql = {
             "CREATE TABLE municipio(id_municipio INTEGER, nome TEXT, codigo TEXT)",
             "CREATE TABLE area_nav(id_area_nav INTEGER, id_municipio INTEGER, nome TEXT)",
@@ -21,7 +21,7 @@ public class GerenciarBanco extends SQLiteOpenHelper {
             "CREATE TABLE censitario(id_censitario INTEGER, id_area INTEGER, codigo TEXT)",
             "CREATE TABLE quarteirao(id_quarteirao INTEGER, id_censitario INTEGER, numero_quarteirao TEXT, sub_numero TEXT)",
             "CREATE TABLE quart_nav(id_area_nav INTEGER, id_quarteirao INTEGER, id_censitario INTEGER, numero_quarteirao TEXT, sub_numero TEXT)",
-            "CREATE TABLE imovel(id_imovel INTEGER, id_municipio INTEGER, id_quarteirao INTEGER, numero_imovel TEXT, endereco TEXT, id_atividade INTEGER)",
+            "CREATE TABLE imovel(id_imovel INTEGER, id_municipio INTEGER, id_quarteirao INTEGER, numero_imovel TEXT, endereco TEXT, id_atividade INTEGER, nome_fantasia TEXT)",
             "CREATE TABLE ovitrampa(id_ovitrampa INTEGER, id_municipio INTEGER, id_quarteirao INTEGER, cadastro TEXT, endereco TEXT)",
             "CREATE TABLE grupo_rec(id_grupo_rec INTEGER, codigo TEXT, nome TEXT)",
             "CREATE TABLE tipo_rec(id_tipo_rec INTEGER, id_grupo_rec INTEGER, codigo INTEGER, nome TEXT)",

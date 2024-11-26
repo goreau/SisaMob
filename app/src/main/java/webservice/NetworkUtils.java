@@ -8,6 +8,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import javax.net.ssl.HostnameVerifier;
+
 /**
  * Created by allanromanato on 11/4/15.
  */
@@ -24,8 +26,9 @@ public class NetworkUtils {
 
             conexao = (HttpURLConnection) apiEnd.openConnection();
             conexao.setRequestMethod("GET");
-            conexao.setReadTimeout(15000);
-            conexao.setConnectTimeout(15000);
+            conexao.setReadTimeout(0);
+            conexao.setConnectTimeout(0);
+
             conexao.connect();
 
             codigoResposta = conexao.getResponseCode();

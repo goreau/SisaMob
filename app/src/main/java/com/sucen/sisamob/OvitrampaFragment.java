@@ -74,7 +74,7 @@ public class OvitrampaFragment extends Fragment {
         int prod = valOvitrampa.indexOf(String.valueOf(imovel.getId_ovitrampa()));
       //  spOvi.setSelection(prod);
         etOvitrampa.setText(strCadastro.get(prod));
-        prod = imovel.getObs()-1;
+        prod = imovel.getObs();//-1;
         spObs.setSelection(prod);
 
         int sit = imovel.getPeri_intra();
@@ -114,6 +114,8 @@ public class OvitrampaFragment extends Fragment {
         addItensOnOvitrampa();
         addItensOnObs();
 
+        tvInstala.requestFocus();
+
         if(idEdt>0){
             Edita();
         }
@@ -139,7 +141,7 @@ public class OvitrampaFragment extends Fragment {
     private void addItensOnObs(){
 
         List<String> list = Arrays.asList("-- Selecione --","1- Intervalo acima 7 dias","2- Ovitrampa ou palheta desaparecidas","3- Ovitrampa ou palheta danificadas",
-                "4- Ovitrampa seca","5- Casa fechada","6- Ovitrampa cheia d'�gua","7- Ovitrampa pouca �gua");
+                "4- Ovitrampa seca","5- Casa fechada","6- Ovitrampa cheia d'água","7- Ovitrampa pouca água");
 
         ArrayAdapter<String> dados = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_spinner_item,list);
 
